@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "ef336065-1a06-2ed4-9945-8c9324bdcc5e",
+		"name": "ExampleDDD",
+		"description": "Test a WebApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET Country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:65413/api/country",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "65413",
+					"path": [
+						"api",
+						"country"
+					]
+				},
+				"description": "Consultar todos los Paises"
+			},
+			"response": []
+		},
+		{
+			"name": "CrearCuentaAhorro",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t \"nombre\" : \"aaaaa\",\n     \"tipocuenta\": \"ppp\",\n     \"numero\": \"111\"\n\t\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44325/api/CuentaBancaria",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44325",
+					"path": [
+						"api",
+						"CuentaBancaria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consignacion",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t \"nombre\" : \"aaaaa\",\n     \"tipocuenta\": \"ppp\",\n     \"numero\": \"111\"\n\t\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44325/api/CuentaBancaria",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44325",
+					"path": [
+						"api",
+						"CuentaBancaria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Creación Cuenta",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t \"nombre\" : \"aaaaa\",\n     \"tipocuenta\": \"ppp\",\n     \"numero\": \"111\"\n\t\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44325/api/CuentaBancaria",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44325",
+					"path": [
+						"api",
+						"CuentaBancaria"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consignación",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t \"nombre\" : \"aaaaa\",\n     \"tipocuenta\": \"ppp\",\n     \"numero\": \"111\"\n\t\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44325/api/CuentaBancaria",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44325",
+					"path": [
+						"api",
+						"CuentaBancaria"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
