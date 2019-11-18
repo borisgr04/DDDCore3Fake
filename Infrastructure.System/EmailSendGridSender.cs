@@ -42,4 +42,8 @@ namespace Infrastructure.System
             return client.SendEmailAsync(msg);
         }
     }
+
+    /*
+     * https://dotnetcoretutorials.com/2017/08/20/sending-email-net-core-2-0/
+     */
 }
