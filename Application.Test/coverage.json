@@ -1,0 +1,1193 @@
+{
+  "Application.dll": {
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Application\\ConsignarService.cs": {
+      "Application.ConsignarService": {
+        "Application.ConsignarResponse Application.ConsignarService::Ejecutar(Application.ConsignarRequest)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 150,
+              "EndOffset": 152,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 150,
+              "EndOffset": 220,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Application.ConsignarService::.ctor(Domain.Contracts.IUnitOfWork)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "Application.ConsignarRequest": {
+        "System.String Application.ConsignarRequest::get_NumeroCuenta()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Double Application.ConsignarRequest::get_Valor()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        }
+      },
+      "Application.ConsignarResponse": {
+        "System.String Application.ConsignarResponse::get_Mensaje()": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Application\\CrearCuentaBancariaService.cs": {
+      "Application.CrearCuentaBancariaService": {
+        "Application.CrearCuentaBancariaResponse Application.CrearCuentaBancariaService::Ejecutar(Application.CrearCuentaBancariaRequest)": {
+          "Lines": {
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "32": 2,
+            "33": 2,
+            "34": 2,
+            "37": 0,
+            "38": 0,
+            "40": 2
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 150,
+              "EndOffset": 155,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 24,
+              "Offset": 150,
+              "EndOffset": 339,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Application.CrearCuentaBancariaService::.ctor(Domain.Contracts.IUnitOfWork,Domain.Contracts.IEmailSender)": {
+          "Lines": {
+            "16": 2,
+            "17": 2,
+            "18": 2,
+            "19": 2,
+            "20": 2
+          },
+          "Branches": []
+        }
+      },
+      "Application.CrearCuentaBancariaRequest": {
+        "System.String Application.CrearCuentaBancariaRequest::get_Nombre()": {
+          "Lines": {
+            "48": 4
+          },
+          "Branches": []
+        },
+        "System.String Application.CrearCuentaBancariaRequest::get_TipoCuenta()": {
+          "Lines": {
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.String Application.CrearCuentaBancariaRequest::get_Numero()": {
+          "Lines": {
+            "52": 8
+          },
+          "Branches": []
+        },
+        "System.String Application.CrearCuentaBancariaRequest::get_Email()": {
+          "Lines": {
+            "55": 6
+          },
+          "Branches": []
+        }
+      },
+      "Application.CrearCuentaBancariaResponse": {
+        "System.String Application.CrearCuentaBancariaResponse::get_Mensaje()": {
+          "Lines": {
+            "59": 4
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Domain.dll": {
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Domain\\Entities\\CuentaAhorro.cs": {
+      "Domain.Entities.CuentaAhorro": {
+        "System.Void Domain.Entities.CuentaAhorro::Retirar(System.Double)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 24,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Domain.Entities.CuentaAhorroTopeDeRetiroException": {
+        "System.Void Domain.Entities.CuentaAhorroTopeDeRetiroException::.ctor()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Entities.CuentaAhorroTopeDeRetiroException::.ctor(System.String)": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Entities.CuentaAhorroTopeDeRetiroException::.ctor(System.String,System.Exception)": {
+          "Lines": {
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Entities.CuentaAhorroTopeDeRetiroException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Domain\\Entities\\CuentaBancaria.cs": {
+      "Domain.Entities.CuentaBancaria": {
+        "System.Collections.Generic.List`1<Domain.Entities.MovimientoFinanciero> Domain.Entities.CuentaBancaria::get_Movimientos()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String Domain.Entities.CuentaBancaria::get_Nombre()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String Domain.Entities.CuentaBancaria::get_Numero()": {
+          "Lines": {
+            "17": 6
+          },
+          "Branches": []
+        },
+        "System.Double Domain.Entities.CuentaBancaria::get_Saldo()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.String Domain.Entities.CuentaBancaria::get_Email()": {
+          "Lines": {
+            "19": 4
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Entities.CuentaBancaria::Consignar(System.Double)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.String Domain.Entities.CuentaBancaria::ToString()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Entities.CuentaBancaria::Trasladar(Domain.Entities.IServicioFinanciero,System.Double)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Entities.CuentaBancaria::.ctor()": {
+          "Lines": {
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "13": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Domain\\Entities\\CuentaCorriente.cs": {
+      "Domain.Entities.CuentaCorriente": {
+        "System.Void Domain.Entities.CuentaCorriente::Retirar(System.Double)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 27,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Domain.Entities.CuentaCorrienteRetirarMaximoSobregiroException": {
+        "System.Void Domain.Entities.CuentaCorrienteRetirarMaximoSobregiroException::.ctor()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Entities.CuentaCorrienteRetirarMaximoSobregiroException::.ctor(System.String)": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Entities.CuentaCorrienteRetirarMaximoSobregiroException::.ctor(System.String,System.Exception)": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Void Domain.Entities.CuentaCorrienteRetirarMaximoSobregiroException::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)": {
+          "Lines": {
+            "37": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Domain\\Entities\\MovimientoFinanciero.cs": {
+      "Domain.Entities.MovimientoFinanciero": {
+        "Domain.Entities.CuentaBancaria Domain.Entities.MovimientoFinanciero::get_CuentaBancaria()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Double Domain.Entities.MovimientoFinanciero::get_ValorRetiro()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Double Domain.Entities.MovimientoFinanciero::get_ValorConsignacion()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Domain.Entities.MovimientoFinanciero::get_FechaMovimiento()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Domain\\Base\\BaseEntity.cs": {
+      "Domain.Base.Entity`1": {
+        "T Domain.Base.Entity`1::get_Id()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Infrastructure.dll": {
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\BancoContext.cs": {
+      "Infrastructure.BancoContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Domain.Entities.CuentaAhorro> Infrastructure.BancoContext::get_CuentasAhorro()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Domain.Entities.CuentaCorriente> Infrastructure.BancoContext::get_CuentasCorriente()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.BancoContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)": {
+          "Lines": {
+            "12": 2,
+            "13": 2,
+            "15": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\Repositories\\CuentaBancariaRepository.cs": {
+      "Infrastructure.Repositories.CuentaBancariaRepository": {
+        "System.Void Infrastructure.Repositories.CuentaBancariaRepository::.ctor(Infrastructure.Base.IDbContext)": {
+          "Lines": {
+            "14": 2,
+            "15": 2,
+            "17": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\Migrations\\20191026114352_Initial-Create.cs": {
+      "Infrastructure.Migrations.InitialCreate": {
+        "System.Void Infrastructure.Migrations.InitialCreate::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Migrations.InitialCreate::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\Migrations\\20191026114352_Initial-Create.Designer.cs": {
+      "Infrastructure.Migrations.InitialCreate": {
+        "System.Void Infrastructure.Migrations.InitialCreate::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "98": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\Migrations\\20191118120939_AddEmailCuentaBancaria.cs": {
+      "Infrastructure.Migrations.AddEmailCuentaBancaria": {
+        "System.Void Infrastructure.Migrations.AddEmailCuentaBancaria::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Migrations.AddEmailCuentaBancaria::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\Migrations\\20191118120939_AddEmailCuentaBancaria.Designer.cs": {
+      "Infrastructure.Migrations.AddEmailCuentaBancaria": {
+        "System.Void Infrastructure.Migrations.AddEmailCuentaBancaria::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\Migrations\\20191118123559_AddEmailCuentaBancariaAlter.cs": {
+      "Infrastructure.Migrations.AddEmailCuentaBancariaAlter": {
+        "System.Void Infrastructure.Migrations.AddEmailCuentaBancariaAlter::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Migrations.AddEmailCuentaBancariaAlter::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\Migrations\\20191118123559_AddEmailCuentaBancariaAlter.Designer.cs": {
+      "Infrastructure.Migrations.AddEmailCuentaBancariaAlter": {
+        "System.Void Infrastructure.Migrations.AddEmailCuentaBancariaAlter::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\Migrations\\BancoContextModelSnapshot.cs": {
+      "Infrastructure.Migrations.BancoContextModelSnapshot": {
+        "System.Void Infrastructure.Migrations.BancoContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "99": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\Base\\GenericRepository.cs": {
+      "Infrastructure.Base.GenericRepository`1": {
+        "System.Collections.Generic.IEnumerable`1<T> Infrastructure.Base.GenericRepository`1::GetAll()": {
+          "Lines": {
+            "26": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "T Infrastructure.Base.GenericRepository`1::Find(System.Object)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<T> Infrastructure.Base.GenericRepository`1::FindBy(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>)": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Linq.IQueryable`1<T> Infrastructure.Base.GenericRepository`1::FindByAsQueryable(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>)": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        },
+        "System.Linq.IQueryable`1<T> Infrastructure.Base.GenericRepository`1::AsQueryable()": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<T> Infrastructure.Base.GenericRepository`1::FindBy(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>,System.Func`2<System.Linq.IQueryable`1<T>,System.Linq.IOrderedQueryable`1<T>>,System.String)": {
+          "Lines": {
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "75": 0,
+            "76": 0,
+            "78": 0
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 14,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 74,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 74,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 84,
+              "EndOffset": 86,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 84,
+              "EndOffset": 103,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "T Infrastructure.Base.GenericRepository`1::FindFirstOrDefault(System.Linq.Expressions.Expression`1<System.Func`2<T,System.Boolean>>)": {
+          "Lines": {
+            "81": 2,
+            "82": 2,
+            "83": 2,
+            "84": 2
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Base.GenericRepository`1::Add(T)": {
+          "Lines": {
+            "86": 2,
+            "87": 2,
+            "88": 2
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Base.GenericRepository`1::Delete(T)": {
+          "Lines": {
+            "91": 0,
+            "92": 0,
+            "93": 0
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Base.GenericRepository`1::Edit(T)": {
+          "Lines": {
+            "95": 0,
+            "96": 0,
+            "97": 0
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Base.GenericRepository`1::DeleteRange(System.Collections.Generic.List`1<T>)": {
+          "Lines": {
+            "99": 0,
+            "100": 0,
+            "101": 0
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Base.GenericRepository`1::AddRange(System.Collections.Generic.List`1<T>)": {
+          "Lines": {
+            "103": 0,
+            "104": 0,
+            "105": 0
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Base.GenericRepository`1::.ctor(Infrastructure.Base.IDbContext)": {
+          "Lines": {
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "22": 2,
+            "23": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\Base\\IDbContext.cs": {
+      "Infrastructure.Base.DbContextBase": {
+        "System.Void Infrastructure.Base.DbContextBase::SetModified(System.Object)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Base.DbContextBase::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)": {
+          "Lines": {
+            "20": 2,
+            "21": 2,
+            "23": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\user\\source\\repos\\ExampleDdd\\Infrastructure\\Base\\UnitOfWork.cs": {
+      "Infrastructure.Base.UnitOfWork": {
+        "Domain.Repositories.ICuentaBancariaRepository Infrastructure.Base.UnitOfWork::get_CuentaBancariaRepository()": {
+          "Lines": {
+            "16": 12
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 16,
+              "Offset": 8,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Int32 Infrastructure.Base.UnitOfWork::Commit()": {
+          "Lines": {
+            "24": 2,
+            "25": 2,
+            "26": 2
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Base.UnitOfWork::Dispose()": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Void Infrastructure.Base.UnitOfWork::Dispose(System.Boolean)": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 2,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 18,
+              "EndOffset": 46,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Infrastructure.Base.UnitOfWork::.ctor(Infrastructure.Base.IDbContext)": {
+          "Lines": {
+            "19": 2,
+            "20": 2,
+            "21": 2,
+            "22": 2
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

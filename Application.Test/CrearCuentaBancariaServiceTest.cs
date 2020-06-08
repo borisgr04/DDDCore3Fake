@@ -8,6 +8,14 @@ using NUnit.Framework;
 
 namespace Application.Test
 {
+    /// <summary>
+    /// https://danielpalme.github.io/ReportGenerator/usage.html
+    /// dotnet add package coverlet.msbuild
+    /// dotnet test /p:CollectCoverage=true
+    /// Install-Package coverlet.msbuild -Version 2.9.0
+    /// https://github.com/coverlet-coverage/coverlet?WT.mc_id=-blog-scottha
+    /// coverlet bin\Debug\netcoreapp3.0\Application.Test.dll --target "dotnet" --targetargs "test --no-build"
+    /// </summary>
     public class CrearCuentaBancariaServiceTest
     {
         BancoContext _context;
@@ -20,17 +28,16 @@ namespace Application.Test
              .Options;*/
 
             var optionsInMemory = new DbContextOptionsBuilder<BancoContext>().UseInMemoryDatabase("Banco").Options;
-
             _context = new BancoContext(optionsInMemory);
         }
 
         [Test]
         public void CrearCuentaBancariaTest()
         {
-            var request = new CrearCuentaBancariaRequest { Numero = "1111", Nombre = "aaaaa", TipoCuenta = "Ahorro", Email="test@email.com" };
+            var request = new CrearCuentaBancariaRequest { Numero = "22222", Nombre = "aaaaa", TipoCuenta = "Ahorro", Email="test@email.com" };
             CrearCuentaBancariaService _service = new CrearCuentaBancariaService(new UnitOfWork(_context), new EmailSenderFake());
             var response = _service.Ejecutar(request);
-            Assert.AreEqual("Se creó con éxito la cuenta 1111.", response.Mensaje);
+            Assert.AreEqual("Se creó con éxito la cuenta 22222.", response.Mensaje);
         }
 
         [Test]
