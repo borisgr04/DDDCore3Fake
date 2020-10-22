@@ -3,5 +3,5 @@ Se confirma la implementación con Test Fake
 
 Link de Arquitectura en Capas para DDD
 
-Versión Node 
+Versión Inicial en Node 
 https://github.com/OlsonII/ddd-practice
